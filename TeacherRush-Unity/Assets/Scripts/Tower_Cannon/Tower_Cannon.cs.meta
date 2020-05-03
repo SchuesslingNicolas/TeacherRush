@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0c501096d43a1b143a8a94d45127ce93
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - towerCannonBulletPrefab: {fileID: 6212394115879188978, guid: 6fb7f0e7b515c9449ba9ca2aa60281cd,
+      type: 3}
+  - bulletSpawnPoint: {fileID: 3637757610979229350, guid: 4c7d5516839e8ba4d87c079f6cec57fd,
+      type: 3}
+  - target: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
