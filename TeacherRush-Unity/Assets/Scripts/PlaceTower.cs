@@ -10,7 +10,7 @@ public class PlaceTower : MonoBehaviour
     private Vector3 mousPos;
     public Camera camera;
 
-     BuildManager buildManager;
+    BuildManager buildManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,17 +30,15 @@ public class PlaceTower : MonoBehaviour
             return;
         }
 
-        
-        
         getMousePos();
         Debug.Log(mousPos);
         GameObject towerToBuild = buildManager.getTowerToBuild();
         Instantiate(towerToBuild).transform.position = mousPos;
+        buildManager.setTowerToBuild(null);
     }
 
     private void getMousePos()
     {
-        
         mousPos = camera.ScreenToWorldPoint(Input.mousePosition);
         mousPos.z = 0;
         Debug.Log(mousPos);

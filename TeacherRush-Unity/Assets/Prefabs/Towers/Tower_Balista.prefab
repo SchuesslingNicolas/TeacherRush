@@ -99,6 +99,7 @@ MonoBehaviour:
   target: {fileID: 0}
   range: 3
   enemyTag: Enemy
+  prize: 800
 --- !u!1 &8831120290807043587
 GameObject:
   m_ObjectHideFlags: 0

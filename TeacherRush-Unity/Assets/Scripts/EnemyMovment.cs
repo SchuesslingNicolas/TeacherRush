@@ -7,7 +7,8 @@ public class EnemyMovment : MonoBehaviour
     public float speed = 6f;
     private Transform target;
     private int waypointIndex = 0;
-    private ScoreScript scoreScript;
+    
+    
 
     void Start()
     {
@@ -26,13 +27,16 @@ public class EnemyMovment : MonoBehaviour
 
         void GetNextWaypoint()
         {
-            if (waypointIndex>=Waypoints.points.Length-1)
+            if (waypointIndex==Waypoints.points.Length-1)
             {
-                scoreScript.lifes -= 5;
+                LifeScript.lifes -= 1;
                 Destroy(gameObject);
             }
-            waypointIndex++;
-            target = Waypoints.points[waypointIndex];
+            else
+            {
+                waypointIndex++;
+                target = Waypoints.points[waypointIndex];   
+            }
         }
     }
 }

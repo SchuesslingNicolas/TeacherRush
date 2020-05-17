@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\timal\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\timal\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TeacherRush-Unity.-1678633347.00" t="ExcludeRecursive" />
-    <e p="D:\4AHIT\SEW\4AHITGIT\TeacherRush\TeacherRush-Unity" t="IncludeRecursive">
+    <e p="C:\Users\nicol\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nicol\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_TeacherRush-Unity.1941799873.00" t="ExcludeRecursive" />
+    <e p="D:\Biblioteken\Dokumente\GitHub\TeacherRush\TeacherRush-Unity" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -11,11 +11,13 @@
           <e p="Enemy.cs" t="Include" />
           <e p="EnemyCollisionProcessor.cs" t="Include" />
           <e p="EnemyMovment.cs" t="Include" />
+          <e p="LifeScript.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="MoneyScript.cs" t="Include" />
+          <e p="NextButtonScript.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="PlaceTower.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
-          <e p="ScoreScript.cs" t="Include" />
           <e p="Shop.cs" t="Include" />
           <e p="Tower_Cannon" t="Include">
             <e p="Tower_Cannon.cs" t="Include" />

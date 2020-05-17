@@ -3,7 +3,11 @@ guid: e372ebc5335e28e4ca597bad0e881518
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - cannonTowerPrefab: {fileID: 2331315977462471698, guid: 4c7d5516839e8ba4d87c079f6cec57fd,
+      type: 3}
+  - ballistaTowerPrefab: {fileID: 5044780061249244875, guid: acc4c5419df2cf648a70d2a082eb6492,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

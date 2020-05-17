@@ -11,6 +11,8 @@ public class Tower_Cannon : MonoBehaviour
     public float range = 5f;
     public string enemyTag = "Enemy";
     private Vector2 targetPosition;
+// TODO auf preis von Prefabs in anderen Klassen zugreifen
+    public int prize;
     //private float cooldown = 0.5f;
     void Start()
     {

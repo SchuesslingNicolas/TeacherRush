@@ -129,3 +129,4 @@ MonoBehaviour:
   target: {fileID: 0}
   range: 3
   enemyTag: Enemy
+  prize: 500
